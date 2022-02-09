@@ -1,0 +1,6 @@
+*.DS_Store
+.vscode
+venv/
+Analysis/
+Data/
+ferryman_github/
