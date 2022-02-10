@@ -1,4 +1,4 @@
-# ObservingEarthWithData
+# FerryMan
 This is a repo of IES Coders project at NASA Hackathon 2018 Taipei.
 Our web-application introduces different species with their information and images, showing their current distribution and present their "comfort" temperature and rainfall environment. For a more in-depth analysis, we applied the method of Sutherst and Maywald (1985) to estimate the Ecological Index (EI) which reflects how well the species could live in different locations.
 
@@ -11,6 +11,17 @@ The biological kingdom always amazed us with its diversity and surprise. In a co
 We hope Ferryman would be a favorite website for all animal lovers and people curious about the biological world. Our website introduces different species with their information and images, showing their current distribution and present their "comfort" temperature and rainfall environment. For a more in-depth analysis, we applied the method of Sutherst and Maywald (1985) to estimate the Ecological Index (EI) which reflects how well the species could live in different locations.
 
 ## Requirements
+It requires following Python libraries (see `requirements.txt` for details):
+```
+dash
+Flask
+gunicorn
+numpy
+pandas
+plotly
+wikipedia
+```
+
 
 ## About the application
 Built using Dash (Plotly) in Python
