@@ -5,7 +5,12 @@ Our web-application introduces different species with their information and imag
 Result of the hackathon: https://www.ait.org.tw/results-of-taipei-2018-nasa-international-space-apps-challenge-hackathon/
 
 ## About the application
-- Built using Dash (Plotly) in Python
+Built using Dash (Plotly) in Python
+
+## Run application
+```
+python app.py
+```
 
 ## URL
 Our web app site: https://savingspecies.herokuapp.com
